@@ -16,12 +16,11 @@ CN='\033[1;38;5;247m'
 CNC='\033[1;38;5;051m'
 
 function banner(){
-echo -e ${RED}"███████╗██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ "
-echo -e ${RED}"██╔════╝██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗"
-echo -e ${RED}"███████╗███████║███████║██║     █████╔╝ █████╗  ██████╔╝"
-echo -e ${RED}"╚════██║██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗"
-echo -e ${RED}"███████║██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║"
-echo -e ${RED}"╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝"
+echo -e ${CP}"  __  __ ____     ____    _    ____ _____ "
+echo -e ${CP}" |  \/  |  _ \   |  _ \  / \  |  _ \_   _|"
+echo -e ${CP}" | |\/| | |_) |  | | | |/ _ \ | |_) || |  "
+echo -e ${CP}" | |  | |  _ <   | |_| / ___ \|  _ < | |  "
+echo -e ${CP}" |_|  |_|_| \_\  |____/_/   \_\_| \_\|_|  "
 echo -e ${GREEN}""
 echo -e ${GREEN}"   >> MR DART - HACKER TOOL FRAMEWORK <<"
 echo -e ${CYAN}"   Build | Exploit | Automate | Dominate"
@@ -144,9 +143,9 @@ read choose
              menu      
       fi
 
-echo -e -n ${BLUE}"\nMafia@Hacks:~/LHOST# "
+echo -e -n ${BLUE}"\n Mr Dart:~/LHOST# "
 read lhost
-echo -e -n ${NC}"\nMafia@Hacks:~/LPORT# "
+echo -e -n ${NC}"\n Mr Dart:~/LPORT# "
 read lport
 echo -e -n ${PINK}"\n[+] Enter name of apk e.g (target.apk): "
 read out
@@ -203,9 +202,9 @@ read choose
    elif [ $choose -eq 0 ]; then
            menu      
       fi
-echo -e -n ${BLUE}"\nMafia@Hacks:~/LHOST# "
+echo -e -n ${BLUE}"\n Mr Dart:~/LHOST# "
 read lhost
-echo -e -n ${NC}"\nMafia@Hacks:~/LPORT# "
+echo -e -n ${NC}"\n Mr Dart:~/LPORT# "
 read lport
 echo -e -n ${PINK}"\n[+] Enter path of original APK:  "
 read org
@@ -267,9 +266,9 @@ read choose
    elif [ $choose -eq 0 ]; then
                menu      
       fi
-echo -e -n ${BLUE}"\nMafia@Hacks:~/LHOST# "
+echo -e -n ${BLUE}"\n MR Dart:~/LHOST# "
 read lhost
-echo -e -n ${NC}"\nMafia@Hacks:~/LPORT# "
+echo -e -n ${NC}"\n Mr Dart:~/LPORT# "
 read lport
 echo -e -n ${PINK}"\n[+] Enter name of payload e.g (target.exe): "
 read out
@@ -337,9 +336,9 @@ read choose
    elif [ $choose -eq 0 ]; then
           menu      
       fi
-echo -e -n ${BLUE}"\nMafia@Hacks:~/LHOST# "
+echo -e -n ${BLUE}"\n Mr Dart:~/LHOST# "
 read lhost
-echo -e -n ${NC}"\nMafia@Hacks:~/LPORT# "
+echo -e -n ${NC}"\n Mr Dart:~/LPORT# "
 read lport
 echo -e -n ${PINK}"\n[+] Enter name of payload e.g (target.elf): "
 read out
@@ -388,9 +387,9 @@ read choose
   elif [ $choose -eq 0 ]; then
           menu  
       fi
-echo -e -n ${BLUE}"\nMafia@Hacks:~/LHOST# "
+echo -e -n ${BLUE}"\n MR Dart:~/LHOST# "
 read lhost
-echo -e -n ${NC}"\nMafia@Hacks:~/LPORT# "
+echo -e -n ${NC}"\n MR Dart:~/LPORT# "
 read lport
 echo -e -n ${PINK}"\n[+] Enter name of payload e.g (target.bin): "
 read out
@@ -443,9 +442,9 @@ read choose
    elif [ $choose -eq 0 ]; then
           menu
       fi
-echo -e -n ${BLUE}"\nMafia@Hacks:~/LHOST# "
+echo -e -n ${BLUE}"\n MR Dart:~/LHOST# "
 read lhost
-echo -e -n ${NC}"\nMafia@Hacks:~/LPORT# "
+echo -e -n ${NC}"\n MR Dart:~/LPORT# "
 read lport
 echo -e -n ${PINK}"\n[+] Enter name of payload e.g (target.macho): "
 read out
