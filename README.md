@@ -3,7 +3,7 @@
 <img src="images/m1.png" width="500"> 
 
 # Installation:
-     1. git clone https://github.com/
+     1. git clone https://github.com/HackerB777/Cybert.git
      2. chmod +x code.sh
 
 # Usage:
@@ -29,3 +29,4 @@
     3. More Obfuscation
     4. Termux Users will also use this tool.
     
+
